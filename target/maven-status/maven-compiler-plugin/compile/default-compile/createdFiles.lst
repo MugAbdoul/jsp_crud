@@ -1,0 +1,3 @@
+com/dao/UserDao.class
+com/util/HibernateUtil.class
+com/model/User.class

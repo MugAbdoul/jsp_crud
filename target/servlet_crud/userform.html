@@ -1,0 +1,38 @@
+
+<h1 class="box-body-header">Add New User</h1>
+<form action="adduser.jsp" method="post" class="form-container">
+    <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" class="form-control" id="name" name="name"/>
+    </div>
+    <div class="form-group">
+        <label for="password">Password:</label>
+        <input type="password" class="form-control" id="password" name="password"/>
+    </div>
+    <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" class="form-control" id="email" name="email"/>
+    </div>
+    <div class="form-group">
+        <label>Sex:</label>
+        <div class="form-check form-check-inline">
+            <input type="radio" class="form-check-input" id="male" name="sex" value="male"/>
+            <label class="form-check-label" for="male">Male</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input type="radio" class="form-check-input" id="female" name="sex" value="female"/>
+            <label class="form-check-label" for="female">Female</label>
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="country">Country:</label>
+        <select class="form-control" id="country" name="country">
+            <option>India</option>
+            <option>Pakistan</option>
+            <option>Afghanistan</option>
+            <option>Berma</option>
+            <option>Other</option>
+        </select>
+    </div>
+    <input type="submit" class="btn btn-primary" value="Add User"/>
+</form>
